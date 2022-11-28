@@ -410,13 +410,14 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin:0 auto;
 }
+
 .designer__row-name {
     font-size: 47.3392px;
     line-height: 59px;
     color: #000;
     font-weight: 700;
-    width: 118px;
 }
 .designer__row-info {
     width: 155px;
@@ -428,13 +429,13 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    transform: rotate(-90deg);
+    transform: translateX(20px) translateY(-22px) rotate(-90deg);
     display: flex;
 }
-.column-row_black{
+.row-language_black{
     color: #000;
 }
-.column-row_grey{
+.row-language_grey{
     color: #828282;
 }
 .designer__img {
